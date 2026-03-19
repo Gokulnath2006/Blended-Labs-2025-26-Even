@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Gokul Nath R
+* **Register Number**: 212224230077
+* **Date of Submission**:19-03-2026
 
 ---
 
@@ -82,33 +82,32 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+1. Logged into the AWS Management Console and launched a new EC2 instance using Amazon Linux 2 AMI, selected instance type, created key pair, and configured security group.
+2. Modified the security group to allow SSH (port 22) and MySQL port (3306) for database access.
+3. Connected to the EC2 instance using SSH from my local system using the key pair.
+4. Installed the MySQL database server using package manager commands (sudo yum install mysql-server).
+5. Started the MySQL service and enabled it, then secured the installation by setting a root password and configuring basic settings.
+6. Created a sample database and table using SQL commands and inserted sample records.
+7. Tested the database by running queries to retrieve data and verified that the database server was working correctly.
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1905" height="1043" alt="Screenshot 2026-03-19 131338" src="https://github.com/user-attachments/assets/f2bdac3c-c60b-4f8c-90e3-a64a6ffbabbb" />
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1920" height="964" alt="566162401-90e243a7-5125-49db-b61a-76dbf917e4b4" src="https://github.com/user-attachments/assets/308b85dc-a3aa-4346-8306-92e6fe822f2a" />
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1918" height="1089" alt="Screenshot 2026-03-19 132112" src="https://github.com/user-attachments/assets/b546e425-865d-4982-a44d-659817f5affe" />
 
 ---
 
